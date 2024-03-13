@@ -9,8 +9,9 @@ export default function Home() {
     setCount((c:number)=>c+1);
   }
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center p-24">
       <p>Hello world!!</p>
+      <h1>{count}</h1>
       <button onClick={incrementCounter}>Increment</button>
     </main>
   );
